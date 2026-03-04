@@ -3,7 +3,7 @@ using UnityEngine;
 public class mover : MonoBehaviour
 {
 
-  float xValue = 0f;
+  float xValue = 0.f;
   float yValue = 0.01f;
   float zValue = 0f;
 
