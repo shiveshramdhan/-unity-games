@@ -3,9 +3,9 @@ using UnityEngine;
 public class mover : MonoBehaviour
 {
 
-  float xValue = 0.f;
-  float yValue = 0.01f;
-  float zValue = 0f;
+   [SerializeField] float xValue = 0f;
+ [SerializeField] float yValue = 0.01f;
+  [SerializeField] float zValue = 0f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
