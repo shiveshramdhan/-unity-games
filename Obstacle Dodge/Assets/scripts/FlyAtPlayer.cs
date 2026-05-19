@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class FlyAtPlayer : MonoBehaviour
 {
-    [SerializeField] Transform player;
-    Vector3 Playerposition;
+  
+    
     void Start()
     {
         
@@ -12,6 +12,6 @@ public class FlyAtPlayer : MonoBehaviour
     
     void Update()
     {
-        Transform.Position = Vector3.MoveTowards(Transform.Position, Playerposition, 1f);
+        
     }
 }
