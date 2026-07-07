@@ -1,9 +1,12 @@
 using UnityEngine;
 
-public class ObjectHit : MonoBehaviour
+public class PlayerCollision : MonoBehaviour
 {
-     void OnCollisionEnter(Collision other)
-   {
-       
-   }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Obstakel geraakt!");
+        }
+    }
 }
